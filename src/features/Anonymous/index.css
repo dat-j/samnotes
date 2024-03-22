@@ -1,0 +1,52 @@
+.box_anoymous {
+  background-color: rgba(255, 255, 255, 10%);
+  padding: 24px;
+}
+.anonymos_img:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 43px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  background-color: #31a24c;
+}
+.Box_message {
+  height: calc(80vh - 90px);
+  overflow: hidden auto;
+}
+.sent {
+  background-color: #82b829;
+  color: white;
+}
+.received {
+  background-color: white;
+  color: black;
+}
+.none {
+  display: none !important;
+}
+.boxUserOnline {
+  max-height: 470px;
+  overflow: auto;
+}
+.inputSearchcontent {
+  padding-left: 5px;
+  color: #fff !important;
+}
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .SideBarAy {
+    max-width: 280px !important;
+    padding: 15px 15px 15px 15px !important;
+  }
+  .marginAnoy {
+    margin-right: 0 !important;
+  }
+  .hiddle {
+    display: none !important;
+  }
+  .input_mea {
+    bottom: -230px !important;
+  }
+}

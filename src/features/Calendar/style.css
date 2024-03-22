@@ -1,0 +1,15 @@
+.edit-mode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (max-width: 739px) {
+  .box-container.MuiBox-root.css-zgoepb {
+    width: calc(100% - 70px) !important;
+  }
+}
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .box-container.MuiBox-root.css-zgoepb {
+    width: calc(100% - 210px);
+  }
+}

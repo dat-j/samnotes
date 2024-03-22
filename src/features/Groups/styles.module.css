@@ -1,0 +1,33 @@
+.root {
+  width: calc(100vw - 250px);
+  height: calc(100dvh - 64px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+.feature {
+  width: 100%;
+  padding: 0 20px;
+  height: calc(100% - 50px);
+  overflow: hidden auto;
+}
+.grid {
+  margin: 0 !important;
+  width: 100% !important;
+}
+@media only screen and (max-width: 739px) {
+  .root {
+    width: calc(100vw - 60px);
+  }
+  .BtnGroupMoblie {
+    padding: 0 !important;
+    padding-left: 15px !important;
+    overflow: hidden !important;
+  }
+}
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .root {
+    width: calc(100vw - 210px);
+  }
+}

@@ -1,0 +1,117 @@
+.search{
+  height: 100%;
+  width: 100%;
+  .search_Results {
+    position: absolute;
+    left: 21vw;
+    top: 8vh;
+    height: 69vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+
+    .custom-item {
+      display: flex;
+      padding: 30px;
+      gap: 30px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 32px;
+      margin-bottom: 20px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      margin-right: 100vh;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      width: 61vw;
+  
+      p {
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.75;
+      }
+      .title {
+        max-height: 53px;
+        width: 200px;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+      .content {
+        max-height: 79px;
+        width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+      .checkbox-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+  
+      .checkbox-list li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+  
+      .checkbox-list input[type="checkbox"] {
+        margin-right: 5px;
+      }
+    }
+    .custom-item:hover {
+      cursor: pointer;
+    }
+    
+  }
+  
+    .search-box{
+      width: 90%;
+      height: 100%;
+      .search-history{
+        z-index: 1000;
+        width: 100%;
+        background-color: #f5f5f5;
+        margin-top: 5px;
+        padding: 10px;
+        color: rgb(96, 93, 89);
+        border-radius: 12px;
+        .del{
+          width: 100%;
+          border-bottom: 1px solid grey;
+          cursor: pointer ;
+          height: 50px;
+          width: 100%;
+          padding: 5px 10px;
+          box-sizing: border-box;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          
+          .delete-history-button {
+            background: none;
+            border: none;
+            color: rgb(96, 93, 89);
+            font-size: 12px;
+            cursor: pointer;
+            padding-top: 5px;
+        }
+        }
+        
+      }
+    }
+}
+
+
+
+@media only screen and (max-width: 739px) {
+  .search_Results {
+    display: none;
+  }
+}
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .search_Results {
+    display: none;
+  }
+  .search{
+    width: 400px;
+  }
+}

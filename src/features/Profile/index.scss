@@ -1,0 +1,199 @@
+.numberMessIcon {
+  background-color: rgba(237, 29, 29, 1);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 7px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.wrap-record {
+  width: 100%;
+  height: 477px;
+  background-color: #fff;
+  border-radius: 32px;
+  margin-top: 30px;
+  overflow: hidden;
+  .record {
+    display: flex;
+    padding: 30px;
+    gap: 40px;
+    border-bottom: 1px solid rgba(129, 129, 129, 1);
+    align-items: center;
+    .number {
+      font-size: 44px;
+      font-weight: 600;
+    }
+    .title {
+      font-size: 22px;
+      font-weight: 600;
+      width: 400px;
+      display: -webkit-box;
+      max-height: 53px;
+      max-width: 200px;
+      -webkit-line-clamp: 2; /* số dòng hiển thị */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      visibility: visible;
+    }
+    .title-expand {
+      font-size: 22px;
+      font-weight: 600;
+      width: 200px;
+      transition: max-height 0.3s ease;
+    }
+    .content {
+      display: -webkit-box;
+      max-height: 53px;
+      width: 343px;
+      -webkit-line-clamp: 2; /* số dòng hiển thị */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      visibility: visible;
+      font-size: 18px;
+      font-weight: 600;
+      transition: max-height 0.3s ease;
+    }
+    .expanded {
+      width: 379px;
+
+      font-size: 18px;
+      font-weight: 600;
+      transition: max-height 0.3s ease;
+
+      // -webkit-line-clamp:5;  /* số dòng hiển thị */
+    }
+
+    .date-post {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
+.box_note_diplay {
+  display: block;
+}
+.box_note_hidden {
+  display: none;
+}
+.SearchName {
+  margin-left: 595px;
+  padding: 5px;
+  border-radius: 12px;
+  width: 303px;
+  background-color: #ddd;
+  margin-top: -40px;
+  margin-bottom: 10px;
+}
+.textSearch {
+  padding: 3px;
+  font-size: 17px;
+  :hover {
+    background-color: #1d1d1d;
+    padding: 2px;
+    border-radius: 10px;
+    color: #fff;
+  }
+}
+.sicon {
+  position: absolute;
+  top: 15;
+  bottom: 34px;
+  right: 350px;
+}
+.inputSearchName {
+  min-width: 300px !important;
+  padding: 12px !important;
+  font-size: 17px;
+  border-radius: 12px;
+  position: relative;
+}
+@media only screen and (max-width: 739px) {
+  .NoteMoblie {
+    width: 80% !important;
+    margin-left: 8% !important;
+  }
+  .none {
+    display: none !important;
+  }
+  .gapProfile {
+    gap: 0 !important;
+  }
+  .Message {
+    top: -120px !important;
+    left: 160px !important;
+  }
+  .root {
+    width: calc(100vw - 70px) !important;
+  }
+  .RootProfile {
+    width: calc(100vw - 70px) !important;
+  }
+  .boxNav {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: 10% !important;
+  }
+  .boxNav2 {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: 10% !important;
+    height: 100% !important;
+  }
+  .BoxNav3 {
+    display: flex !important;
+    width: 100% !important;
+    justify-content: space-around !important;
+    flex-direction: column !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    gap: 0 !important;
+  }
+}
+
+// tablet
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .root {
+    width: calc(100vw - 210px) !important;
+  }
+  .MuiBox-root.css-1jmjf72 {
+    margin-left: 10%;
+  }
+  .MuiBox-root.css-1yr07vb {
+    width: 82%;
+    margin-left: 10%;
+  }
+  .MuiBox-root.css-fdwhw2 {
+    gap: 20px;
+  }
+  .MuiBox-root.css-8bxcwg {
+    gap: 38px;
+    width: 19rem;
+  }
+  p.MuiTypography-root.MuiTypography-body1.css-1rrzfi5-MuiTypography-root {
+    font-size: 20px;
+  }
+  .MuiBox-root.css-x6xca9 {
+    left: 9%;
+    gap: 20px;
+  }
+  .Message.MuiBox-root.css-15g50gn {
+    position: relative;
+    height: 48px;
+    top: 120px;
+    right: 199px;
+    cursor: pointer;
+  }
+  .MuiBox-root.css-38rmmb {
+    margin-left: 0;
+  }
+  .avaProfle {
+    margin-left: 0 !important;
+  }
+}

@@ -1,0 +1,19 @@
+/* Mobile */
+
+@media only screen and (max-width: 739px) {
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorRight.MuiDrawer-paperAnchorDockedRight.css-18sg6k4-MuiPaper-root-MuiDrawer-paper {
+    display: block !important;
+    min-width: calc(100% - 70px) !important;
+  }
+  .boxEdit {
+    padding: 0 !important;
+  }
+}
+/* //tablet */
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorRight.MuiDrawer-paperAnchorDockedRight.css-18sg6k4-MuiPaper-root-MuiDrawer-paper {
+    display: block !important;
+    width: calc(100vw - 210px) !important;
+  }
+}
+

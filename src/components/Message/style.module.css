@@ -1,0 +1,37 @@
+.inputMessage {
+  color: #65676b;
+  font-size: 17px;
+  border-radius: 20px;
+  ::placeholder {
+    color: #fff;
+  }
+}
+input:focus {
+  outline: none;
+}
+.display {
+  display: block;
+}
+.display_false {
+  display: none !important;
+}
+.option_message {
+  :hover {
+    background-color: #dadada;
+  }
+}
+@media only screen and (max-width: 739px) {
+  .boxMess {
+    width: 250px !important;
+    right: -20px !important;
+  }
+  .none {
+    display: none;
+  }
+}
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .boxMess {
+    width: 350px !important;
+    right: -20px !important;
+  }
+}

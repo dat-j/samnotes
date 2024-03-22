@@ -1,0 +1,5 @@
+@media only screen and (max-width: 739px) {
+  .dislayToolNote {
+    display: block !important;
+  }
+}
